@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: Provider.of<ThemeChanger>(context).currentTheme,
       debugShowCheckedModeBanner: false,
-      title: 'HeadersPage',
+      title: 'Curso de diseño',
       home: HomePage(),
     );
   }
